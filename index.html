@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Invenção do Governo ou Proteção Real? EGR, DPF e ARLA 32</title>
+<meta name="description" content="Entenda de forma simples como EGR, DPF e ARLA 32 protegem a saúde do motorista, da família e da comunidade. Vídeos curtos, quiz e mito ou verdade.">
+<meta name="theme-color" content="#0b4f5c">
+<!-- Pré-visualização ao compartilhar (WhatsApp/Telegram). Troque a imagem quando tiver uma (1200x630). -->
+<meta property="og:title" content="Invenção do Governo ou Proteção Real? A verdade sobre EGR, DPF e ARLA 32">
+<meta property="og:description" content="Você não vê, mas respira. Vídeos curtos, quiz e mito ou verdade sobre o escapamento do diesel.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<!-- <meta property="og:image" content="https://SEU-SITE/imagem-compartilhamento.jpg"> -->
+
+<style>
+/* =====================================================================
+   ESTILOS  (cores no bloco :root — fácil de trocar)
+   ===================================================================== */
+:root{
+  --petrol:#0b4f5c;       /* azul-petróleo principal */
+  --petrol-dark:#073842;
+  --green:#1f7a4d;        /* verde saúde */
+  --green-soft:#e6f4ec;
+  --orange:#f59e0b;       /* destaque dos botões */
+  --orange-dark:#d97706;
+  --alert-bg:#fff4d6;
+  --alert-line:#b45309;
+  --bg:#f4f9f8;
+  --card:#ffffff;
+  --ink:#14232a;          /* texto (contraste AA sobre branco) */
+  --muted:#41555c;
+  --line:#cfe0e0;
+  --radius:16px;
+  --shadow:0 2px 10px rgba(7,56,66,.10);
+  --nav-h:60px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  font-size:18px;line-height:1.6;color:var(--ink);background:var(--bg);
+}
+img,svg{max-width:100%}
+h1,h2,h3{line-height:1.2;color:var(--petrol-dark);margin:0 0 .5em}
+h2{font-size:1.7rem}
+h3{font-size:1.25rem}
+p{margin:0 0 1em;max-width:62ch}
+a{color:var(--petrol)}
+:focus-visible{outline:3px solid var(--orange-dark);outline-offset:3px;border-radius:6px}
+.container{width:100%;max-width:1060px;margin:0 auto;padding:0 18px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:8px;top:-60px;background:#fff;padding:10px 14px;z-index:200;border-radius:8px}
+.skip:focus{top:8px}
+.ico{width:1.6em;height:1.6em;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* ---------- Botões (altura mínima 48px) ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.5em;
+  min-height:52px;padding:12px 22px;border-radius:999px;border:2px solid transparent;
+  font:inherit;font-weight:700;text-decoration:none;cursor:pointer;text-align:center;
+  transition:transform .15s,background .15s;
+}
+.btn:active{transform:scale(.98)}
+.btn-main{background:var(--orange);color:#1a1200}
+.btn-main:hover{background:#ffb52e}
+.btn-ghost{background:transparent;color:#fff;border-color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.15)}
+.btn-line{background:#fff;color:var(--petrol-dark);border-color:var(--petrol)}
+.btn-line:hover{background:var(--green-soft)}
+.btn-wa{background:#128c4a;color:#fff}
+.btn-tg{background:#1c6fa8;color:#fff}
+.btn-copy{background:var(--petrol-dark);color:#fff}
+.btn-sm{min-height:48px;padding:8px 16px;font-size:.95rem}
+.btn-wa:hover,.btn-tg:hover,.btn-copy:hover{filter:brightness(1.12)}
+
+/* ---------- Menu fixo ---------- */
+header.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--petrol-dark);color:#fff;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.nav-bar{display:flex;align-items:center;justify-content:space-between;height:var(--nav-h)}
+.brand{color:#fff;text-decoration:none;font-weight:800;letter-spacing:.3px;display:flex;align-items:center;gap:8px;min-height:48px}
+.brand span{color:var(--orange)}
+.nav-toggle{background:none;border:2px solid #fff;color:#fff;border-radius:10px;min-width:48px;min-height:48px;font:inherit;font-weight:700;cursor:pointer}
+.nav-links{display:none;list-style:none;margin:0;padding:6px 18px 14px;background:var(--petrol-dark)}
+.nav-links.open{display:block}
+.nav-links a{display:flex;align-items:center;min-height:48px;color:#fff;text-decoration:none;font-weight:600;border-bottom:1px solid rgba(255,255,255,.15)}
+.nav-links a[aria-current="true"]{color:var(--orange)}
+@media(min-width:860px){
+  .nav-toggle{display:none}
+  .nav-links{display:flex!important;gap:6px;padding:0;background:none}
+  .nav-links a{border:0;padding:0 12px;border-radius:8px}
+  .nav-links a:hover{background:rgba(255,255,255,.12)}
+}
+
+/* ---------- Seções ---------- */
+section{padding:56px 0;scroll-margin-top:var(--nav-h)}
+section.alt{background:#fff}
+.sec-title{display:flex;align-items:center;gap:12px;color:var(--petrol)}
+.sec-title .ico{width:2em;height:2em;background:var(--green-soft);color:var(--green);padding:8px;border-radius:14px;stroke-width:1.7}
+.lead{font-size:1.1rem;color:var(--muted)}
+.grid{display:grid;gap:16px}
+@media(min-width:700px){.grid.c2{grid-template-columns:repeat(2,1fr)}.grid.c3{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+.card .ico{width:2.4em;height:2.4em;color:var(--green);margin-bottom:6px}
+.tag{display:inline-block;background:var(--green-soft);color:#0f5132;font-weight:700;font-size:.85rem;padding:4px 12px;border-radius:999px;border:1px solid #b9dcc8}
+.term{border-bottom:2px dotted var(--petrol);cursor:help;text-decoration:none}
+.alert{background:var(--alert-bg);border-left:6px solid var(--alert-line);padding:16px 18px;border-radius:10px;margin:20px 0}
+.alert strong:first-child{color:#7c3a06}
+.alert p:last-child{margin:0}
+.alert > .ico{display:block;color:var(--alert-line);margin-bottom:6px}
+
+/* ---------- Hero ---------- */
+#inicio{padding:calc(var(--nav-h) + 40px) 0 56px;color:#fff;background:linear-gradient(150deg,var(--petrol-dark),var(--petrol) 55%,#17695c);position:relative;overflow:hidden}
+#inicio h1{color:#fff;font-size:1.9rem}
+#inicio .sub{font-size:1.6rem;font-weight:800;color:var(--orange);margin:0 0 .6em}
+#inicio p{max-width:52ch}
+.hero-grid{display:grid;gap:28px;align-items:center}
+@media(min-width:800px){.hero-grid{grid-template-columns:1.3fr .7fr}#inicio h1{font-size:2.5rem}}
+.hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.hero-btns .btn{flex:1 1 220px}
+.hero-art{position:relative;background:rgba(255,255,255,.08);border-radius:28px;padding:28px;display:flex;justify-content:center}
+.hero-art .ico{width:140px;height:140px;color:#fff;stroke-width:1.2}
+.puff{position:absolute;width:14px;height:14px;border-radius:50%;background:rgba(255,255,255,.55);left:14%;bottom:36%;animation:rise 4s ease-in infinite;opacity:0}
+.puff:nth-of-type(2){animation-delay:1.3s;left:10%;width:10px;height:10px}
+.puff:nth-of-type(3){animation-delay:2.6s;left:18%;width:8px;height:8px}
+@keyframes rise{0%{transform:translate(0,0);opacity:0}20%{opacity:.8}100%{transform:translate(-40px,-90px);opacity:0}}
+
+/* ---------- Sistemas ---------- */
+.sys h3{display:flex;align-items:center;gap:10px;margin-bottom:2px}
+.sys .analogia{background:var(--green-soft);border-radius:10px;padding:10px 12px;font-weight:600;color:#0f5132;margin:10px 0 14px}
+.sys dl{margin:0}
+.sys dt{font-weight:800;color:var(--petrol);margin-top:12px}
+.sys dd{margin:2px 0 0}
+.sys dd.warn{background:var(--alert-bg);border-left:5px solid var(--alert-line);padding:8px 12px;border-radius:8px}
+
+/* ---------- Vídeos ---------- */
+.ep{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.player{position:relative;aspect-ratio:16/9;background:var(--petrol-dark);color:#fff;display:flex;align-items:center;justify-content:center}
+.player iframe,.player img{position:absolute;inset:0;width:100%;height:100%;border:0;object-fit:cover}
+.player-btn{position:relative;z-index:1;background:var(--orange);color:#1a1200;border:0;border-radius:999px;min-height:56px;padding:0 22px;font:inherit;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.player-ph{text-align:center;padding:14px;font-size:.95rem}
+.player-ph code{background:rgba(255,255,255,.18);padding:2px 6px;border-radius:6px}
+.ep-body{padding:18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.ep-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ep-num{font-weight:800;color:var(--green)}
+.ep-body h3{margin:0}
+.ep-actions{margin-top:auto;padding-top:8px;display:flex;flex-wrap:wrap;gap:8px}
+
+/* ---------- Mito ou verdade (cartões que viram) ---------- */
+.flip{all:unset;box-sizing:border-box;display:grid;cursor:pointer;perspective:900px;min-height:220px;border-radius:var(--radius)}
+.flip:focus-visible{outline:3px solid var(--orange-dark);outline-offset:4px}
+.face{grid-area:1/1;border-radius:var(--radius);padding:20px;display:flex;flex-direction:column;justify-content:center;gap:10px;backface-visibility:hidden;-webkit-backface-visibility:hidden;transition:transform .55s;box-shadow:var(--shadow)}
+.face.front{background:var(--petrol);color:#fff;border:2px solid var(--petrol-dark)}
+.face.back{background:#fff;border:3px solid var(--green);transform:rotateY(180deg)}
+.face.back.is-myth{border-color:var(--alert-line)}
+.flip[aria-pressed="true"] .front{transform:rotateY(180deg)}
+.flip[aria-pressed="true"] .back{transform:rotateY(0)}
+.q{font-size:1.15rem;font-weight:700}
+.hint{font-size:.9rem;opacity:.9;display:flex;align-items:center;gap:6px}
+.verdict{font-weight:800;font-size:1.1rem;display:flex;align-items:center;gap:8px}
+.verdict.myth{color:#8a3d05}
+.verdict.truth{color:#0f5132}
+.verdict .ico{width:1.4em;height:1.4em;margin:0}
+
+/* ---------- Quiz ---------- */
+.quiz{max-width:720px;margin:0 auto}
+progress{width:100%;height:12px;accent-color:var(--green);margin:6px 0 14px}
+.opt{display:flex;align-items:flex-start;gap:12px;width:100%;text-align:left;min-height:56px;padding:12px 16px;margin:0 0 10px;font:inherit;background:#fff;color:var(--ink);border:2px solid var(--line);border-radius:14px;cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--petrol)}
+.opt:disabled{cursor:default}
+.opt .mark{font-weight:800;width:1.4em;flex:none}
+.opt.right{border-color:var(--green);background:var(--green-soft)}
+.opt.wrong{border-color:var(--alert-line);background:var(--alert-bg)}
+.feedback{border-radius:12px;padding:14px 16px;margin:6px 0 14px;background:#fff;border:2px solid var(--line)}
+.feedback strong{display:block}
+.result{text-align:center}
+.result .score{font-size:3rem;font-weight:800;color:var(--green);margin:0}
+.result p{margin-left:auto;margin-right:auto}
+.row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:14px}
+
+/* ---------- Impacto coletivo ---------- */
+.chain{list-style:none;margin:20px 0;padding:0;display:grid;gap:0}
+.chain li{display:flex;gap:14px;align-items:center;background:#fff;border:2px solid var(--line);border-radius:14px;padding:14px 16px;position:relative}
+.chain li+li{margin-top:26px}
+.chain li+li::before{content:"▼";position:absolute;top:-24px;left:50%;transform:translateX(-50%);color:var(--petrol);font-size:1rem}
+.chain .n{flex:none;width:36px;height:36px;border-radius:50%;background:var(--petrol);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.chain li:last-child{border-color:var(--alert-line);background:var(--alert-bg)}
+@media(min-width:900px){
+  .chain{grid-template-columns:repeat(5,1fr);gap:26px}
+  .chain li{flex-direction:column;text-align:center;height:100%}
+  .chain li+li{margin-top:0}
+  .chain li+li::before{content:"►";top:50%;left:-22px;transform:translateY(-50%)}
+}
+.ph{border:2px dashed var(--petrol);border-radius:12px;padding:14px;color:var(--muted);background:#fff;font-weight:600}
+
+/* ---------- FAQ ---------- */
+details{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;box-shadow:var(--shadow)}
+summary{cursor:pointer;min-height:56px;padding:12px 18px;font-weight:700;display:flex;align-items:center;justify-content:space-between;gap:12px;list-style:none;color:var(--petrol-dark)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.6rem;color:var(--green);flex:none}
+details[open] summary::after{content:"–"}
+details .ans{padding:0 18px 14px}
+details .ans p:last-child{margin:0}
+
+/* ---------- Compartilhe ---------- */
+#compartilhe{background:linear-gradient(150deg,var(--green),var(--petrol));color:#fff}
+#compartilhe h2,#compartilhe .sec-title{color:#fff}
+#compartilhe .sec-title .ico{background:rgba(255,255,255,.18);color:#fff}
+#compartilhe .lead{color:#fff}
+.share-big{display:grid;gap:12px;max-width:520px}
+.share-big .btn{min-height:64px;font-size:1.15rem;width:100%}
+.status{min-height:1.6em;font-weight:700;margin-top:8px}
+
+/* ---------- Fontes ---------- */
+.src-group{margin-bottom:22px}
+.src-list{list-style:none;padding:0;margin:0}
+.src-list li{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.src-list .need{color:#8a3d05;font-weight:700}
+.src-list .chk{font-size:.85rem;font-weight:700;color:#7c3a06;background:var(--alert-bg);border-radius:6px;padding:2px 8px;margin-left:6px;white-space:nowrap}
+
+/* ---------- Sobre / rodapé ---------- */
+.team{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+@media(min-width:700px){.team{grid-template-columns:repeat(2,1fr)}}
+.team li{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;gap:12px;align-items:center;font-weight:600}
+.team .ico{color:var(--green)}
+footer{background:var(--petrol-dark);color:#e6f0f0;padding:30px 0 90px;font-size:.95rem}
+footer a{color:#ffd37a}
+footer p{max-width:70ch}
+
+/* ---------- Voltar ao topo ---------- */
+#topo{position:fixed;right:14px;bottom:14px;z-index:90;width:56px;height:56px;border-radius:50%;border:0;background:var(--orange);color:#1a1200;box-shadow:0 3px 10px rgba(0,0,0,.3);cursor:pointer;display:none;align-items:center;justify-content:center}
+#topo.show{display:flex}
+#topo .ico{width:28px;height:28px;stroke-width:2.4}
+
+/* ---------- Movimento reduzido ---------- */
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .puff{animation:none;display:none}
+  .face,.btn{transition:none}
+}
+noscript .alert{margin:80px 18px 0}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ===================== MENU FIXO (6 itens) ===================== -->
+<header class="nav">
+  <div class="container nav-bar">
+    <a class="brand" href="#inicio" aria-label="Ir para o início">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-drop"/></svg>
+      EGR·DPF·<span>ARLA</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+  </div>
+  <nav aria-label="Principal">
+    <ul class="nav-links container" id="navLinks">
+      <li><a href="#sistemas">Os 3 sistemas</a></li>
+      <li><a href="#videos">Vídeos</a></li>
+      <li><a href="#mito">Mito ou Verdade</a></li>
+      <li><a href="#quiz">Quiz</a></li>
+      <li><a href="#compartilhe">Compartilhe</a></li>
+      <li><a href="#fontes">Fontes</a></li>
+    </ul>
+  </nav>
+</header>
+
+<noscript><div class="alert"><p><strong>Atenção:</strong> este site precisa de JavaScript para mostrar o conteúdo. Ative o JavaScript no navegador e recarregue a página.</p></div></noscript>
+
+<main id="conteudo">
+
+<!-- ===================== 1. INÍCIO ===================== -->
+<section id="inicio" aria-labelledby="h-inicio">
+  <div class="container hero-grid">
+    <div>
+      <h1 id="h-inicio" data-cfg="titulo"></h1>
+      <p class="sub" data-cfg="subtitulo"></p>
+      <p data-cfg="heroTexto"></p>
+      <div class="hero-btns">
+        <a class="btn btn-main" href="#videos">▶ Assistir aos vídeos</a>
+        <a class="btn btn-ghost" href="#quiz">✔ Teste seu conhecimento</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <span class="puff"></span><span class="puff"></span><span class="puff"></span>
+      <svg class="ico" viewBox="0 0 24 24"><use href="#i-truck"/></svg>
+    </div>
+  </div>
+</section>
+
+<!-- Seções 2 a 11 são montadas pelo JavaScript a partir do CONFIG (mais abaixo) -->
+<section id="problema" class="alt" aria-labelledby="h-problema"></section>
+<section id="sistemas" aria-labelledby="h-sistemas"></section>
+<section id="videos" class="alt" aria-labelledby="h-videos"></section>
+<section id="mito" aria-labelledby="h-mito"></section>
+<section id="quiz" class="alt" aria-labelledby="h-quiz"></section>
+<section id="impacto" aria-labelledby="h-impacto"></section>
+<section id="faq" class="alt" aria-labelledby="h-faq"></section>
+<section id="compartilhe" aria-labelledby="h-compartilhe"></section>
+<section id="fontes" aria-labelledby="h-fontes"></section>
+<section id="sobre" class="alt" aria-labelledby="h-sobre"></section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p data-cfg="rodape"></p>
+    <p>Conteúdo educativo e de divulgação científica. Não substitui orientação técnica, médica ou jurídica.</p>
+  </div>
+</footer>
+
+<button id="topo" aria-label="Voltar ao topo">
+  <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-up"/></svg>
+</button>
+
+<!-- ===================== ÍCONES (SVG leves, sem arquivos externos) ===================== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.4A5.4 5.4 0 0 1 12 6.2a5.4 5.4 0 0 1 9.6 5.4C19.500 16.400 12 21 12 21z"/></symbol>
+    <symbol id="i-lung" viewBox="0 0 24 24"><path d="M12 3v9M12 12c-1-2.500-3.500-3.500-5.500-1.500C4 13.500 3 18 3.500 20.200c.5 1.800 3 1.300 4.500-.2 1.200-1.200 4-2 4-8zM12 12c1-2.500 3.500-3.500 5.500-1.500C20 13.500 21 18 20.500 20.200c-.5 1.800-3 1.300-4.500-.2-1.200-1.200-4-2-4-8z"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M3 4h18l-7 8.500V19l-4 2v-8.500z"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 6h12v10H2zM14 9h4l3 3v4h-7z"/><circle cx="6.500" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.500 6 11a6 6 0 0 1-12 0c0-4.500 6-11 6-11z"/></symbol>
+    <symbol id="i-egr" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.800-6.100M20 4v5h-5"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><path d="M4 4l16 16"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18a4.500 4.500 0 0 1-.5-9A6 6 0 0 1 18 9.500 4.200 4.200 0 0 1 17.500 18z"/></symbol>
+    <symbol id="i-dots" viewBox="0 0 24 24"><circle cx="6" cy="8" r="1.200"/><circle cx="12" cy="6" r="1.200"/><circle cx="18" cy="9" r="1.200"/><circle cx="9" cy="13" r="1.200"/><circle cx="15" cy="14" r="1.200"/><circle cx="7" cy="18" r="1.200"/><circle cx="13" cy="19" r="1.200"/><circle cx="19" cy="18" r="1.200"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/></symbol>
+    <symbol id="i-cards" viewBox="0 0 24 24"><rect x="3" y="5" width="12" height="15" rx="2"/><path d="M18 8l3 1-3 10"/></symbol>
+    <symbol id="i-quiz" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.500 9.500a2.600 2.600 0 1 1 3.500 2.400c-.7.400-1 .9-1 1.600M12 17h.01"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.500 2.500-6 6-6s6 2.500 6 6"/><circle cx="17" cy="9" r="2.200"/><path d="M17 14c2.500 0 4 1.800 4 4.500"/></symbol>
+    <symbol id="i-ask" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M12 8.500v3M12 13.500h.01"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.500"/><circle cx="18" cy="6" r="2.500"/><circle cx="18" cy="18" r="2.500"/><path d="M8.200 11l7.600-4M8.200 13l7.600 4"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4h6a3 3 0 0 1 2 1 3 3 0 0 1 2-1h6v15h-6a3 3 0 0 0-2 1 3 3 0 0 0-2-1H4z M12 5v15"/></symbol>
+    <symbol id="i-school" viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.500V16c0 1.500 3 3 6 3s6-1.500 6-3v-4.500"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.500-7 8-7s8 3 8 7"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M6 21h12M5 7h14M5 7l-3 7a3.500 3.500 0 0 0 6 0zM19 7l-3 7a3.500 3.500 0 0 0 6 0z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.500l4.500 4.500L19 7"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M9 11V5.500a1.500 1.500 0 0 1 3 0V10M12 10V4.500a1.500 1.500 0 0 1 3 0V10M15 10V6.500a1.500 1.500 0 0 1 3 0V14c0 4-2.500 7-6.500 7C8 21 6.500 19.500 5 16.500L3.500 13.500a1.500 1.500 0 0 1 2.500-1.500L9 14.500V11"/></symbol>
+  </defs>
+</svg>
+
+<script>
+/* =====================================================================
+   ★★★  CONFIGURAÇÃO — EDITE APENAS ESTE BLOCO  ★★★
+   Todos os textos, vídeos, perguntas e fontes ficam aqui.
+   Dica: dá para usar <strong>negrito</strong> nos textos.
+   ===================================================================== */
+const CONFIG = {
+
+  /* ---------- Dados gerais ---------- */
+  site: {
+    titulo:   "Invenção do Governo ou Proteção Real? A verdade sobre EGR, DPF e ARLA 32",
+    subtitulo:"Você não vê, mas respira.",
+    heroTexto:"Em 4 vídeos curtos e algumas perguntas rápidas, você vai entender como esses três sistemas do escapamento protegem a saúde de <strong>quem dirige, da família e de quem vive perto da estrada</strong>.",
+    // Endereço público do site (para compartilhar). Deixe "" para usar o endereço atual da página.
+    urlPublica: "",
+    textoCompartilhar: "Invenção do governo ou proteção real? Veja a verdade sobre EGR, DPF e ARLA 32 em vídeos curtos:",
+    rodape: "Projeto Dirigido · UFABC · CECS — divulgação científica sobre emissões de veículos diesel."
+  },
+
+  /* ---------- 2. O problema invisível ---------- */
+  problema: {
+    titulo: "O problema invisível",
+    intro: "Antigamente, o diesel sujo dava para ver: fumaça preta saindo do cano. Nos motores modernos, o perigo principal <strong>não tem cor nem cheiro forte</strong>.",
+    cards: [
+      { icone:"i-eye",   titulo:"Fumaça preta é coisa do passado?",
+        texto:"Motor moderno quase não solta fumaça preta. Mas ausência de fumaça visível <strong>não quer dizer ar limpo</strong>." },
+      { icone:"i-cloud", titulo:"NOx: o gás que você não enxerga",
+        texto:"<abbr class='term' title='Óxidos de nitrogênio: gases que se formam na queima do diesel'>NOx</abbr> são gases que irritam os pulmões. Na cidade, eles ajudam a formar o ozônio, que piora a respiração." },
+      { icone:"i-dots",  titulo:"PM2,5: poeira fina demais",
+        texto:"<abbr class='term' title='Partículas com 2,5 micrômetros ou menos, muito mais finas que um fio de cabelo'>PM2,5</abbr> são partículas tão pequenas que passam pelo nariz e chegam fundo no pulmão." },
+      { icone:"i-lung",  titulo:"Quem respira primeiro?",
+        texto:"Quem passa o dia perto do escapamento: <strong>motorista, ajudante, crianças da van</strong> e moradores da beira da estrada." }
+    ],
+    // Fato conhecido; confira e complete a fonte na seção "Fontes".
+    alerta: "<strong>Você sabia?</strong> Em 2012, a agência de câncer da OMS (IARC) classificou a exaustão de motores diesel como cancerígena para humanos. <em>[inserir fonte e link conferido]</em>"
+  },
+
+  /* ---------- 3. Os 3 sistemas ---------- */
+  sistemas: {
+    titulo: "Os 3 sistemas, em linguagem simples",
+    intro: "Cada um faz um trabalho diferente. Juntos, deixam o que sai do cano muito mais limpo.",
+    cards: [
+      { icone:"i-egr", nome:"EGR", subtitulo:"Recirculação dos gases de escape",
+        analogia:"É como abafar um pouco a chama do fogão: ela fica menos quente.",
+        oQueE:"Uma válvula que devolve parte dos gases do escapamento para dentro do motor, esfriando a queima.",
+        saude:"Queima menos quente forma <strong>menos NOx</strong>, o gás que irrita os pulmões e ajuda a formar ozônio.",
+        removido:"O NOx sai em maior quantidade. Se a válvula entope, o caminho certo é <strong>limpar ou trocar</strong> — e não anular o sistema, que é irregular." },
+      { icone:"i-filter", nome:"DPF", subtitulo:"Filtro de partículas diesel",
+        analogia:"É um filtro de café no escapamento: o líquido passa, a borra fica.",
+        oQueE:"Filtro cerâmico cheio de canaizinhos que prende a fuligem. De tempos em tempos, ele “se limpa” queimando o que acumulou (a <abbr class='term' title='Processo em que o filtro queima a fuligem acumulada, em geral com o veículo rodando'>regeneração</abbr>).",
+        saude:"Segura as <strong>partículas finas (PM2,5)</strong> antes que elas cheguem ao ar que você e sua família respiram.",
+        removido:"As partículas saem direto pelo cano. Quem respira primeiro é o <strong>próprio condutor</strong> e quem está por perto. É infração ambiental." },
+      { icone:"i-drop", nome:"SCR / ARLA 32", subtitulo:"Redução catalítica seletiva",
+        analogia:"É uma estação de tratamento no cano de escape: trata o gás antes de soltar.",
+        oQueE:"O ARLA 32 é um líquido (ureia + água) guardado em tanque próprio, <strong>não vai no diesel</strong>. Ele é borrifado no escapamento e transforma o NOx em nitrogênio e vapor de água.",
+        saude:"Reduz bastante o <strong>NOx</strong> que sai do cano, ajudando a diminuir o ozônio e a poluição da cidade.",
+        removido:"O <strong>emulador de ARLA</strong> engana o painel do veículo. O NOx sai sem tratamento e a economia é só aparente. É infração ambiental." }
+    ],
+    rotulos: { oQueE:"O que é", saude:"O que faz pela sua saúde", removido:"Se for removido ou burlado" }
+  },
+
+  /* ---------- 4. Série de vídeos ----------
+     Para trocar o vídeo: cole o ID do YouTube em "youtubeId".
+     Exemplo: https://www.youtube.com/watch?v=AbC123xyz  →  youtubeId: "AbC123xyz"
+     Para as legendas aparecerem: suba o arquivo .srt no YouTube Studio (idioma Português). */
+  videos: {
+    titulo: "Série de vídeos",
+    intro: "4 episódios curtos. Dá para ver no intervalo do almoço.",
+    episodios: [
+      { n:1, titulo:"A Primeira Vítima do Cano de Escape", duracao:"3 min",   eixo:"Saúde Ocupacional do Condutor",       youtubeId:"" },
+      { n:2, titulo:"O Veneno Invisível: NOx e Ozônio Urbano", duracao:"3,5 min", eixo:"Qualidade do Ar Coletiva",         youtubeId:"" },
+      { n:3, titulo:"O Filtro Cerâmico Salva Vidas (DPF)",  duracao:"3,5 min", eixo:"Prevenção Oncológica",                youtubeId:"" },
+      { n:4, titulo:"ARLA 32 e o Custo Coletivo da Burla",  duracao:"4 min",   eixo:"Responsabilidade e Legislação",       youtubeId:"" }
+    ]
+  },
+
+  /* ---------- 5. Mito ou Verdade ----------
+     eMito: true = MITO | false = VERDADE */
+  mitos: {
+    titulo: "Mito ou Verdade?",
+    intro: "Toque no cartão para ver a resposta.",
+    cards: [
+      { afirmacao:"Tirar o DPF deixa o caminhão mais forte e econômico.", eMito:true,
+        resposta:"Se o filtro dá problema, a causa deve ser investigada e o DPF consertado ou trocado. Tirar não resolve: as partículas vão para o ar e a alteração é irregular. <em>[inserir fonte]</em>" },
+      { afirmacao:"A fumaça diesel moderna é inofensiva porque é transparente.", eMito:true,
+        resposta:"Ser transparente não significa ser limpo. NOx e partículas finíssimas não se veem, mas podem fazer mal aos pulmões e ao coração." },
+      { afirmacao:"Chip emulador de ARLA é só uma economia.", eMito:true,
+        resposta:"O emulador engana o painel e deixa o NOx sair sem tratamento. A “economia” é paga por todos, inclusive por quem dirige. É infração ambiental. <em>[inserir fonte legal]</em>" },
+      { afirmacao:"Poluição de diesel afeta só quem mora perto da estrada.", eMito:true,
+        resposta:"Perto da estrada o ar costuma ser pior, mas os poluentes se espalham, e o NOx ajuda a formar ozônio que atinge a cidade toda." },
+      { afirmacao:"O ARLA 32 é um aditivo que se mistura ao diesel.", eMito:true,
+        resposta:"Não. O ARLA 32 tem tanque próprio e é borrifado no escapamento. Jamais deve ser colocado no tanque de diesel." },
+      { afirmacao:"O DPF precisa de cuidados e de regeneração para funcionar bem.", eMito:false,
+        resposta:"Verdade. Seguir o manual, usar o combustível indicado e levar à oficina quando a luz de aviso acender evita entupimento e custo maior depois." }
+    ],
+    rotulos: { mito:"MITO", verdade:"VERDADE", dica:"Toque para virar" }
+  },
+
+  /* ---------- 6. Quiz (resposta certa = índice começando em 0) ---------- */
+  quiz: {
+    titulo: "Quiz rápido",
+    intro: "5 perguntas. Sem cadastro, sem pressa.",
+    perguntas: [
+      { p:"Para que serve o DPF?",
+        opcoes:["Dar mais potência ao motor","Prender as partículas finas da fumaça","Esquentar a cabine"], certa:1,
+        explica:"O DPF é um filtro cerâmico que segura a fuligem (partículas finas) antes de ela sair pelo cano." },
+      { p:"O que o NOx faz na cidade?",
+        opcoes:["Nada, some no ar","Ajuda a formar ozônio e irrita os pulmões","Limpa o ar"], certa:1,
+        explica:"O NOx irrita as vias respiratórias e, com o sol, ajuda a formar o ozônio, que piora a respiração." },
+      { p:"O que é o ARLA 32?",
+        opcoes:["Um aditivo para colocar no diesel","Um líquido (ureia e água) usado no sistema SCR","Um óleo de motor"], certa:1,
+        explica:"O ARLA 32 tem tanque próprio e é borrifado no escapamento para transformar o NOx em nitrogênio e vapor de água." },
+      { p:"A fumaça de um diesel moderno é “inofensiva” se não aparece nada saindo do cano?",
+        opcoes:["Sim, se é transparente é segura","Não, os poluentes principais não se enxergam","Só faz mal em dias de chuva"], certa:1,
+        explica:"NOx e partículas muito finas não têm cor visível. Não ver fumaça não quer dizer ar limpo." },
+      { p:"Instalar emulador de ARLA ou remover o DPF é…",
+        opcoes:["Só uma economia","Permitido se o motor for forte","Infração ambiental"], certa:2,
+        explica:"É uma alteração irregular do controle de emissões e é tratada como infração ambiental. <em>[inserir base legal]</em>" }
+    ],
+    mensagens: [
+      { min:0, texto:"Bom começo! Assista aos vídeos e tente de novo." },
+      { min:3, texto:"Muito bem! Você já entende o essencial." },
+      { min:5, texto:"Excelente! Compartilhe com um colega de estrada." }
+    ]
+  },
+
+  /* ---------- 7. Impacto coletivo ---------- */
+  impacto: {
+    titulo: "Impacto coletivo",
+    intro: "Quando um veículo burla o sistema, o custo não fica só com ele. Veja o caminho:",
+    cadeia: [
+      "Sistema removido ou burlado",
+      "Mais NOx e partículas no ar",
+      "Mais ozônio e ar pior na cidade",
+      "Mais problemas respiratórios e do coração",
+      "Mais atendimentos no SUS. Quem paga é todo mundo"
+    ],
+    blocos: [
+      { icone:"i-cloud", titulo:"Meio ambiente local", texto:"Ar mais poluído em corredores de carga do Grande ABC, como Anchieta, Imigrantes e Rodoanel.", dado:"[inserir dado local e fonte]" },
+      { icone:"i-heart", titulo:"Saúde pública e SUS", texto:"Doenças ligadas à poluição do ar geram consultas, internações e gastos públicos.", dado:"[inserir dado sobre custo para o SUS e fonte]" }
+    ],
+    alerta: "<strong>É infração ambiental:</strong> instalar emulador de ARLA e remover o DPF são alterações irregulares do sistema de controle de emissões. <em>[inserir base legal: lei, artigo e valores de multa]</em>"
+  },
+
+  /* ---------- 8. FAQ ---------- */
+  faq: {
+    titulo: "Perguntas frequentes",
+    itens: [
+      { p:"Meu caminhão antigo precisa desses sistemas?",
+        r:"Veículos fabricados antes das exigências não saíram de fábrica com esses sistemas. A regra vale para quem saiu de fábrica com eles. <em>[inserir fonte: PROCONVE]</em>" },
+      { p:"O DPF entupiu. E agora?",
+        r:"Procure uma oficina de confiança. O mais comum é fazer a regeneração ou a limpeza. Consulte o manual do veículo. Remover o filtro não é a solução." },
+      { p:"Posso colocar ARLA 32 no tanque de diesel?",
+        r:"Nunca. O ARLA 32 tem tanque próprio, geralmente com tampa azul. Se colocar no diesel, pode danificar o motor." },
+      { p:"Por que o ARLA 32 é necessário?",
+        r:"Porque é ele que permite ao sistema SCR transformar o NOx em nitrogênio e vapor de água antes de sair pelo cano." },
+      { p:"Isso vale também para vans escolares?",
+        r:"Sim, para qualquer veículo diesel fabricado com esses sistemas. Em van escolar, o cuidado importa ainda mais: as crianças respiram o que está ao redor." },
+      { p:"O site é pago ou pede cadastro?",
+        r:"Não. Tudo é aberto e gratuito, sem login e sem anúncios." }
+    ]
+  },
+
+  /* ---------- 9. Compartilhe ---------- */
+  compartilhe: {
+    titulo: "Compartilhe",
+    intro: "Mande para o grupo da van, da frota ou da família. Pode ajudar alguém a respirar melhor."
+  },
+
+  /* ---------- 10. Fontes e referências ----------
+     "link": "" mostra "[inserir link]".  "verificar": true mostra o aviso "confirmar antes de publicar".
+     Nada aqui foi tratado como definitivo: confirme cada item. */
+  fontes: {
+    titulo: "Fontes e referências",
+    intro: "Lista para completar com as referências científicas do projeto.",
+    grupos: [
+      { nome:"Saúde e câncer (IARC / OMS)", itens:[
+        { texto:"IARC. Diesel and Gasoline Engine Exhausts and Some Nitroarenes. Monografias IARC, vol. 105 (2012).", link:"", verificar:true },
+        { texto:"OMS. Diretrizes de qualidade do ar (Air Quality Guidelines).", link:"", verificar:true },
+        { texto:"[inserir fonte]", link:"" }
+      ]},
+      { nome:"Órgãos ambientais", itens:[
+        { texto:"CETESB. Relatório de qualidade do ar no Estado de São Paulo.", link:"", verificar:true },
+        { texto:"IBAMA. [inserir documento]", link:"" },
+        { texto:"[inserir fonte]", link:"" }
+      ]},
+      { nome:"Normas e leis (PROCONVE / CONAMA)", itens:[
+        { texto:"PROCONVE — Programa de Controle da Poluição do Ar por Veículos Automotores. [inserir resolução e fase aplicável]", link:"", verificar:true },
+        { texto:"Resolução CONAMA aplicável a veículos pesados. [inserir número e ano]", link:"" },
+        { texto:"Lei sobre infração ambiental por alteração do sistema de emissões. [inserir lei e artigo]", link:"" }
+      ]},
+      { nome:"Dados de saúde e SUS", itens:[
+        { texto:"[inserir fonte]", link:"" }
+      ]}
+    ]
+  },
+
+  /* ---------- 11. Sobre o projeto ---------- */
+  sobre: {
+    titulo: "Sobre o projeto",
+    texto: "Projeto acadêmico de divulgação científica da <strong>Universidade Federal do ABC (UFABC)</strong>, no <strong>Centro de Engenharia, Modelagem e Ciências Sociais Aplicadas (CECS)</strong>, desenvolvido na disciplina <strong>Projeto Dirigido</strong>.",
+    equipe: [
+      "Gabriel Nascimento Brainer",
+      "Eric Ryu Yamamoto Salazar",
+      "Raul Martins das Chagas",
+      "Arthur Augusto Tavares Santos"
+    ],
+    contato: "" // Ex.: "contato@exemplo.com" (opcional)
+  }
+};
+
+/* =====================================================================
+   CÓDIGO DO SITE (não precisa editar daqui para baixo)
+   ===================================================================== */
+(function () {
+  "use strict";
+  const $ = (s, el = document) => el.querySelector(s);
+  const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+  const icon = id => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#${id}"/></svg>`;
+  const siteUrl = () => CONFIG.site.urlPublica || (location.origin + location.pathname);
+
+  /* ---------- Textos do topo/rodapé ---------- */
+  $$("[data-cfg]").forEach(el => { el.innerHTML = CONFIG.site[el.dataset.cfg]; });
+  document.title = CONFIG.site.titulo;
+
+  /* ---------- Utilitário: título de seção ---------- */
+  const secTitle = (id, ic, txt) => `<h2 class="sec-title" id="${id}">${icon(ic)}<span>${txt}</span></h2>`;
+  const put = (id, html) => { $("#" + id).innerHTML = `<div class="container">${html}</div>`; };
+
+  /* ---------- Compartilhamento ---------- */
+  const shareLinks = (texto, url) => {
+    const t = encodeURIComponent(texto + " " + url);
+    return {
+      wa: "https://wa.me/?text=" + t,
+      tg: "https://t.me/share/url?url=" + encodeURIComponent(url) + "&text=" + encodeURIComponent(texto)
+    };
+  };
+  async function copyText(text, statusEl) {
+    try { await navigator.clipboard.writeText(text); }
+    catch (e) {
+      const ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); } catch (_) {}
+      ta.remove();
+    }
+    if (statusEl) { statusEl.textContent = "✔ Link copiado! Agora é só colar."; setTimeout(() => statusEl.textContent = "", 4000); }
+  }
+
+  /* ---------- 2. Problema ---------- */
+  (function () {
+    const c = CONFIG.problema;
+    put("problema",
+      secTitle("h-problema", "i-eye", c.titulo) +
+      `<p class="lead">${c.intro}</p>` +
+      `<div class="grid c2">${c.cards.map(k => `
+        <article class="card">${icon(k.icone)}<h3>${k.titulo}</h3><p>${k.texto}</p></article>`).join("")}</div>` +
+      `<div class="alert">${c.alerta ? `<p>${c.alerta}</p>` : ""}</div>`);
+  })();
+
+  /* ---------- 3. Sistemas ---------- */
+  (function () {
+    const c = CONFIG.sistemas, r = c.rotulos;
+    put("sistemas",
+      secTitle("h-sistemas", "i-filter", c.titulo) +
+      `<p class="lead">${c.intro}</p>` +
+      `<div class="grid c3">${c.cards.map(k => `
+        <article class="card sys">
+          ${icon(k.icone)}
+          <h3>${k.nome}</h3><span class="tag">${k.subtitulo}</span>
+          <p class="analogia">💡 ${k.analogia}</p>
+          <dl>
+            <dt>${r.oQueE}</dt><dd>${k.oQueE}</dd>
+            <dt>${r.saude}</dt><dd>${k.saude}</dd>
+            <dt>${r.removido}</dt><dd class="warn">${k.removido}</dd>
+          </dl>
+        </article>`).join("")}</div>`);
+  })();
+
+  /* ---------- 4. Vídeos (carregamento sob demanda) ---------- */
+  (function () {
+    const c = CONFIG.videos;
+    put("videos",
+      secTitle("h-videos", "i-play", c.titulo) +
+      `<p class="lead">${c.intro}</p>` +
+      `<div class="grid c2">${c.episodios.map((e, i) => {
+        const has = !!e.youtubeId;
+        const links = shareLinks(`Ep. ${e.n}: ${e.titulo}. ${CONFIG.site.textoCompartilhar}`, siteUrl() + "#ep" + e.n);
+        return `
+        <article class="card ep" id="ep${e.n}">
+          <div class="player" data-yt="${e.youtubeId}" data-title="${e.titulo.replace(/"/g, "&quot;")}">
+            ${has
+              ? `<img src="https://i.ytimg.com/vi/${e.youtubeId}/hqdefault.jpg" alt="Capa do episódio ${e.n}: ${e.titulo}" loading="lazy" width="480" height="360">
+                 <button class="player-btn" type="button">▶ Assistir (${e.duracao})</button>`
+              : `<div class="player-ph">${icon("i-play")}<br><strong>Vídeo em breve</strong><br>Cole o ID do YouTube em <code>youtubeId</code> do episódio ${e.n}.</div>`}
+          </div>
+          <div class="ep-body">
+            <div class="ep-meta"><span class="ep-num">Episódio ${e.n}</span><span class="tag">⏱ ${e.duracao}</span></div>
+            <h3>${e.titulo}</h3>
+            <p><strong>Eixo de impacto:</strong> ${e.eixo}</p>
+            <div class="ep-actions">
+              <a class="btn btn-wa btn-sm" href="${links.wa}" target="_blank" rel="noopener">WhatsApp</a>
+              <a class="btn btn-tg btn-sm" href="${links.tg}" target="_blank" rel="noopener">Telegram</a>
+              <button class="btn btn-copy btn-sm" type="button" data-copy="${siteUrl()}#ep${e.n}">Copiar link</button>
+            </div>
+            <div class="status" role="status" aria-live="polite"></div>
+          </div>
+        </article>`; }).join("")}</div>`);
+
+    // Só carrega o iframe do YouTube quando a pessoa tocar (poupa dados 3G/4G).
+    $$("#videos .player").forEach(p => {
+      const btn = $(".player-btn", p);
+      if (!btn) return;
+      btn.addEventListener("click", () => {
+        const id = p.dataset.yt;
+        // cc_load_policy=1 liga as legendas; hl/cc_lang_pref pedem português.
+        const src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&cc_load_policy=1&hl=pt-BR&cc_lang_pref=pt`;
+        p.innerHTML = `<iframe src="${src}" title="${p.dataset.title}" loading="lazy" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+      });
+    });
+  })();
+
+  /* ---------- 5. Mito ou Verdade ---------- */
+  (function () {
+    const c = CONFIG.mitos, r = c.rotulos;
+    put("mito",
+      secTitle("h-mito", "i-cards", c.titulo) +
+      `<p class="lead">${c.intro}</p>` +
+      `<div class="grid c2">${c.cards.map(k => `
+        <button class="flip" type="button" aria-pressed="false">
+          <span class="face front"><span class="q">“${k.afirmacao}”</span><span class="hint">${icon("i-hand")}${r.dica}</span></span>
+          <span class="face back ${k.eMito ? "is-myth" : ""}" aria-hidden="true">
+            <span class="verdict ${k.eMito ? "myth" : "truth"}">${icon(k.eMito ? "i-x" : "i-check")}${k.eMito ? r.mito : r.verdade}</span>
+            <span>${k.resposta}</span>
+          </span>
+        </button>`).join("")}</div>`);
+    $$("#mito .flip").forEach(b => b.addEventListener("click", () => {
+      const on = b.getAttribute("aria-pressed") === "true";
+      b.setAttribute("aria-pressed", String(!on));
+      $(".front", b).setAttribute("aria-hidden", String(!on));
+      $(".back", b).setAttribute("aria-hidden", String(on));
+    }));
+  })();
+
+  /* ---------- 6. Quiz ---------- */
+  (function () {
+    const c = CONFIG.quiz, Q = c.perguntas;
+    put("quiz", secTitle("h-quiz", "i-quiz", c.titulo) + `<p class="lead">${c.intro}</p><div class="quiz card" id="quizBox"></div>`);
+    const box = $("#quizBox");
+    let i = 0, score = 0;
+
+    function show() {
+      const q = Q[i];
+      box.innerHTML = `
+        <p><strong>Pergunta ${i + 1} de ${Q.length}</strong></p>
+        <progress max="${Q.length}" value="${i}" aria-label="Progresso do quiz"></progress>
+        <h3 id="qq" tabindex="-1">${q.p}</h3>
+        <div role="group" aria-labelledby="qq">${q.opcoes.map((o, k) =>
+          `<button type="button" class="opt" data-k="${k}"><span class="mark" aria-hidden="true">${"ABC"[k]}</span><span>${o}</span></button>`).join("")}</div>
+        <div id="fb" role="status" aria-live="polite"></div>`;
+      $("#qq").focus({ preventScroll: true });
+      $$(".opt", box).forEach(b => b.addEventListener("click", () => answer(+b.dataset.k)));
+    }
+
+    function answer(k) {
+      const q = Q[i], ok = k === q.certa;
+      if (ok) score++;
+      $$(".opt", box).forEach(b => {
+        b.disabled = true;
+        const n = +b.dataset.k;
+        // Não depende só de cor: ✔ / ✘ aparecem no texto.
+        if (n === q.certa) { b.classList.add("right"); $(".mark", b).textContent = "✔"; }
+        else if (n === k)  { b.classList.add("wrong"); $(".mark", b).textContent = "✘"; }
+      });
+      const last = i === Q.length - 1;
+      $("#fb").innerHTML = `
+        <div class="feedback">
+          <strong>${ok ? "✔ Isso mesmo!" : "✘ Quase! A resposta certa é a opção " + "ABC"[q.certa] + "."}</strong>
+          <span>${q.explica}</span>
+        </div>
+        <button type="button" class="btn btn-main" id="next">${last ? "Ver resultado" : "Próxima pergunta"}</button>`;
+      const nx = $("#next"); nx.focus();
+      nx.addEventListener("click", () => { i++; i < Q.length ? show() : finish(); });
+    }
+
+    function finish() {
+      const msg = [...c.mensagens].reverse().find(m => score >= m.min).texto;
+      const texto = `Acertei ${score} de ${Q.length} no quiz sobre EGR, DPF e ARLA 32. Teste você também:`;
+      const l = shareLinks(texto, siteUrl() + "#quiz");
+      box.innerHTML = `
+        <div class="result">
+          <h3 id="res" tabindex="-1">Seu resultado</h3>
+          <p class="score">${score} / ${Q.length}</p>
+          <p>${msg}</p>
+          <div class="row">
+            <a class="btn btn-wa" href="${l.wa}" target="_blank" rel="noopener">Compartilhar no WhatsApp</a>
+            <a class="btn btn-tg" href="${l.tg}" target="_blank" rel="noopener">Telegram</a>
+            <button class="btn btn-copy" type="button" id="qcopy">Copiar link</button>
+          </div>
+          <div class="row"><button class="btn btn-line" type="button" id="again">↻ Refazer o quiz</button><a class="btn btn-line" href="#videos">Ver os vídeos</a></div>
+          <div class="status" role="status" aria-live="polite" id="qst"></div>
+        </div>`;
+      $("#res").focus({ preventScroll: true });
+      $("#qcopy").addEventListener("click", () => copyText(siteUrl() + "#quiz", $("#qst")));
+      $("#again").addEventListener("click", () => { i = 0; score = 0; show(); });
+    }
+    show();
+  })();
+
+  /* ---------- 7. Impacto coletivo ---------- */
+  (function () {
+    const c = CONFIG.impacto;
+    put("impacto",
+      secTitle("h-impacto", "i-people", c.titulo) +
+      `<p class="lead">${c.intro}</p>` +
+      `<ol class="chain">${c.cadeia.map((t, k) => `<li><span class="n" aria-hidden="true">${k + 1}</span><span>${t}</span></li>`).join("")}</ol>` +
+      `<div class="grid c2">${c.blocos.map(b => `
+        <article class="card">${icon(b.icone)}<h3>${b.titulo}</h3><p>${b.texto}</p><p class="ph">${b.dado}</p></article>`).join("")}</div>` +
+      `<div class="alert">${icon("i-scale")}<p>${c.alerta}</p></div>`);
+  })();
+
+  /* ---------- 8. FAQ ---------- */
+  (function () {
+    const c = CONFIG.faq;
+    put("faq", secTitle("h-faq", "i-ask", c.titulo) +
+      c.itens.map(f => `<details><summary>${f.p}</summary><div class="ans"><p>${f.r}</p></div></details>`).join(""));
+  })();
+
+  /* ---------- 9. Compartilhe ---------- */
+  (function () {
+    const c = CONFIG.compartilhe;
+    const l = shareLinks(CONFIG.site.textoCompartilhar, siteUrl());
+    put("compartilhe",
+      secTitle("h-compartilhe", "i-share", c.titulo) +
+      `<p class="lead">${c.intro}</p>
+       <div class="share-big">
+         <a class="btn btn-wa" href="${l.wa}" target="_blank" rel="noopener">Enviar pelo WhatsApp</a>
+         <a class="btn btn-tg" href="${l.tg}" target="_blank" rel="noopener">Enviar pelo Telegram</a>
+         <button class="btn btn-copy" type="button" data-copy="${siteUrl()}">Copiar link do site</button>
+       </div>
+       <div class="status" role="status" aria-live="polite" id="shareStatus"></div>`);
+  })();
+
+  // Botões "Copiar link" (vídeos e compartilhe)
+  document.addEventListener("click", ev => {
+    const b = ev.target.closest("[data-copy]");
+    if (!b) return;
+    const st = $(".status", b.parentElement.parentElement) || $("#shareStatus");
+    copyText(b.dataset.copy, b.closest("#compartilhe") ? $("#shareStatus") : st);
+  });
+
+  /* ---------- 10. Fontes ---------- */
+  (function () {
+    const c = CONFIG.fontes;
+    put("fontes",
+      secTitle("h-fontes", "i-book", c.titulo) +
+      `<p class="lead">${c.intro}</p>` +
+      c.grupos.map(g => `
+        <div class="src-group"><h3>${g.nome}</h3>
+          <ul class="src-list">${g.itens.map(it => `
+            <li>${it.texto.includes("[inserir") ? it.texto.replace(/(\[inserir[^\]]*\])/g, '<span class="need">$1</span>') : it.texto}
+              ${it.link ? ` <a href="${it.link}" target="_blank" rel="noopener">Abrir fonte</a>` : ` <span class="need">[inserir link]</span>`}
+              ${it.verificar ? `<span class="chk">confirmar antes de publicar</span>` : ""}
+            </li>`).join("")}</ul>
+        </div>`).join(""));
+  })();
+
+  /* ---------- 11. Sobre ---------- */
+  (function () {
+    const c = CONFIG.sobre;
+    put("sobre",
+      secTitle("h-sobre", "i-school", c.titulo) +
+      `<p>${c.texto}</p>
+       <h3>Equipe discente</h3>
+       <ul class="team">${c.equipe.map(n => `<li>${icon("i-user")}${n}</li>`).join("")}</ul>` +
+      (c.contato ? `<p style="margin-top:16px">Contato: <a href="mailto:${c.contato}">${c.contato}</a></p>` : ""));
+  })();
+
+  /* ---------- Menu móvel ---------- */
+  const toggle = $("#navToggle"), links = $("#navLinks");
+  toggle.addEventListener("click", () => {
+    const open = links.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", String(open));
+  });
+  $$("a", links).forEach(a => a.addEventListener("click", () => {
+    links.classList.remove("open"); toggle.setAttribute("aria-expanded", "false");
+  }));
+  document.addEventListener("keydown", e => { if (e.key === "Escape") { links.classList.remove("open"); toggle.setAttribute("aria-expanded", "false"); } });
+
+  /* ---------- Destaque do item de menu da seção atual ---------- */
+  if ("IntersectionObserver" in window) {
+    const map = {};
+    $$("a", links).forEach(a => map[a.getAttribute("href").slice(1)] = a);
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting && map[e.target.id]) {
+        $$("a", links).forEach(a => a.removeAttribute("aria-current"));
+        map[e.target.id].setAttribute("aria-current", "true");
+      }
+    }), { rootMargin: "-40% 0px -55% 0px" });
+    Object.keys(map).forEach(id => { const s = document.getElementById(id); if (s) io.observe(s); });
+  }
+
+  /* ---------- Voltar ao topo ---------- */
+  const topo = $("#topo");
+  addEventListener("scroll", () => topo.classList.toggle("show", scrollY > 600), { passive: true });
+  topo.addEventListener("click", () => { scrollTo({ top: 0 }); $("#inicio h1").setAttribute("tabindex", "-1"); $("#inicio h1").focus({ preventScroll: true }); });
+
+  // Se abrir com link direto (#ep2, #quiz), rola até o ponto depois de montar a página
+  if (location.hash) { const t = document.getElementById(location.hash.slice(1)); if (t) setTimeout(() => t.scrollIntoView(), 50); }
+})();
+</script>
+</body>
+</html>
